@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-// Endpoint para testar a conexão com o banco
+
 app.MapGet("/teste-conexao", async () =>
 {
     try
